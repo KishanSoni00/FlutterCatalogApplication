@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../widgets/drawer.dart';
 
+//* Day 11 Learn about context, constraints
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
   final int day = 1;
@@ -14,6 +16,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Text("Learn Flutter Day $day"),
+          //  child: Text(context.runtimeType.toString()),
         ),
       ),
       drawer: MyDrawer(),
