@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/models/catalog.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../widgets/drawer.dart';
 import '../widgets/item_wwidget.dart';
@@ -13,6 +14,7 @@ class HomePage extends StatelessWidget {
     final dummyList = List.generate(10, (index) => CatalogModel.items[0]);
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text("Catelog App"),
       ),
       body: Padding(
