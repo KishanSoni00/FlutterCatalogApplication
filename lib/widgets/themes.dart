@@ -32,6 +32,7 @@ class MyTheme {
         cardColor: Colors.black,
         canvasColor: darkCreamColor,
         primaryColor: Colors.white,
+
         buttonTheme: ButtonThemeData(buttonColor: lightBluishColor),
 
         //primaryTextTheme: GoogleFonts.latoTextTheme()
@@ -47,6 +48,7 @@ class MyTheme {
             color: Colors.white,
           ),
           // textTheme: Theme.of(context).textTheme,
+           
         ),
       );
 
